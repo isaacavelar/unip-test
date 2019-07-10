@@ -16,10 +16,10 @@ public class logarunip {
 	
 public void preenchercampos() {
   WebElement RA =	driver.findElement(By.id("matricula1"));
-	RA.sendKeys("n3281d1");
+	RA.sendKeys("ra");
 	
 	WebElement senha = driver.findElement(By.id("senha1"));
-	senha.sendKeys("5718");
+	senha.sendKeys("senha");
 	
 	
 	
